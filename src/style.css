@@ -53,6 +53,13 @@ a:hover {
 	text-align: center;
 }
 
+.search-card:hover {
+	background: #fff;
+	filter: brightness(0.9);
+	transform: scale(1.01);
+	cursor: default;
+}
+
 .song-img img{
 	max-width: 300px;
 }
@@ -69,12 +76,13 @@ a:hover {
  *
  */
 #header {
-	background: navy;
-	color: white;
+	background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+	color: #222;
+	font-size: 24px;
+	font-weight: bold;
 	width: 100%;
 	text-align: center;
 	padding: 5vh 0;
-	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
